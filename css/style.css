@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+
+
+
+
+/* ESTILADO DEL HEADER */
+
+
+header{
+    background-color: rgba(9, 9, 9, 0.881);
+}
+
+
+/* TERMINA ESTILADO DEL HEADER */
+
+
+
+
+
+
+
+
+/* ESTILADO BARRA DE NAVEGACION  */
+
+
+
+
+
+.nav-item:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+
+
+
+
+/* TERMINA ESTILADO DE BARRA DE NAVEGACION */
+
+
+
+
+
+
+
+/* ESTILADO DEL LOGO */
+
+
+
+
+
+
+/* TERMINA ESTILADO DEL LOGO */
+
+
+
+
+
+
+
+/* ESTILADO DE SLIDER */
+
+
+.zapas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+    height: 260vh;
+    max-width: 96%;
+    height: 100%;
+}
+
+
+
+.carousel-indicators li{
+    display: none;
+}
+
+
+.carousel-control-prev-icon{
+    border-radius: solid;
+    height: 15px;
+    background-color: black;
+}
+
+
+
+.carousel-control-next-icon{
+    border-radius: solid;
+    height: 15px;
+    background-color: black;
+}
+
+
+
+/* TERMINA ESTILADO DE SLIDER */
+
+
+
+
+
+
+/* ESTILADO DEL H2 */
+
+h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: rgba(9, 9, 9, 0.881);
+    color: white;
+    height: 50px;
+    text-align: center;
+    letter-spacing: 5px
+}
+
+
+
+
+
+
+/* TERMINA ESTILADO DEL H2 */
+
+
+
+
+/* EMPIEZA ESTILADO DE LOS SNEAKERS */
+
+img.destacados{
+    height: 100%;
+    width: auto;
+    max-height: 170px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+.container-items{
+   display: flex;
+}
+
+
+
+
+
+.item{
+    margin: 0px 80px 0px 50px;
+    border-radius: 10px;
+}
+
+
+
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+
+.textos__h2{
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+
+h4{
+    font-size: larger;
+    font-weight: bolder
+}
+
+
+
+.info-product{
+   padding: 15px 30px;
+   line-height: 2;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+
+
+
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+
+
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+
+
+h3{
+    padding: 5px;
+}
+
+
+
+
+
+/* TERMINA ESTILADO DE LOS SNEAKERS */
+
+
+
+
+
+
+/* EMPIEZA ESTILADO DE INDUMENTARIA */
+
+.container-items{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.induitems{
+    margin: 0px 80px 0px 50px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.induitems:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+
+
+
+
+img.indu{
+    height: 100%;
+    max-height: 180px;
+    width: 230px;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+
+
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+
+
+
+ 
+ .price{
+     font-size: 18px;
+     font-weight: 900;
+ }
+ 
+
+
+
+ .info-product button{
+     border: none;
+     background: none;
+     background-color: black;
+     color: white;
+     padding: 15px 10px;
+     cursor: pointer;
+ }
+
+
+
+/* TERMINA ESTILADO DE INDUMENTARIA */
+
+
+
+
+
+
+
+/* EMPIEZA ESTILADO DE EL FOOTER */
+
+.footer{
+    height: 24vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 500px;
+}
+
+
+
+
+.navegacion{
+    list-style-type: none;
+    font-size: large;
+}
+
+
+
+
+
+
+
+.navegacion a{
+    color: white;
+}
+
+
+.navegacion li a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+.titulo__footer{
+    font-size: x-large;
+}
+
+
+
+.footer__ig{
+    
+    font-size: 25px;
+}
+
+
+.footer__twitter{
+    font-size: 25px;
+}
+
+
+/* TERMINA ESTILADO DEL FOOTER */
+
+
+
+
+
+/* TERMINA INDEX.HTML */
+
+
+
+
+
+
+
+
+
+/* EMPIEZA ESTILADO DE SNEAKERS.HTML Y INDUMENTARIA.HTML */
+
+
+
+
+/* H1 */
+
+
+
+
+h1{
+    text-align: center;
+}
+
+
+
+/* H1 */
+
+
+
+/* P */
+
+
+
+
+
+.mensaje{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+
+
+
+strong{
+    color: black;
+}
+
+/* P */
+
+
+/* TERMINA ESTILADO SNEAKERS.HTML Y INDUMENTARIA HTML */
+
+
+
+
+
+
+
+
+
+/* EMPIEZA ESTILADO QUIENESSOMOS.HTML */
+
+
+
+
+
+
+
+/* EMPIEZA ESTILADO DE EL MAQUETADO */
+
+
+
+.container__quienessomos{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns:repeat(4, 1fr) ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:  
+    "logo logo quiensoy servicios"
+    "logo logo productos contacto";
+}
+
+
+
+
+
+.container__quienessomos div{
+    display: grid;
+    place-items: start center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.apartados{
+    color: white;
+    width: 100%;
+    height: auto;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid white ;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    }
+
+
+
+
+.apartados__p{
+    color: white;
+    width: 90%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    }
+    
+
+
+
+
+/* ESTILADO DEL APARTADO QUIENES SOMOS */
+
+
+.logo__2{
+    grid-area: logo;
+    background-image: url(../img/fondo3.jpg);
+    background-position: center;
+    border: 2px solid black;
+}
+    
+
+
+.container__quienessomos main{
+    overflow: hidden;
+}
+
+
+
+.logo__2:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+
+
+
+
+
+   .quienessomos {
+        color: white;
+        width: 60%;
+        float: right;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid white ;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+
+
+
+    .quienessomos__p{
+        color: white;
+        width: 90%;
+        float: right;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid white;
+        padding: 60px;
+        text-align: center;
+        font-size: x-large;
+    }
+
+
+    
+/* TERMINA ESTILADO DEL APARTADO QUIENES SOMOS */
+
+
+
+
+
+
+/* EMPIEZA ESTILADO DEL APARTADO OBJETIVOS */
+
+.objetivo{
+    grid-area: quiensoy;
+    background-color: rgba(128, 128, 128, 0.447);
+    border: 2px solid black;
+}
+
+
+
+
+
+
+.objetivo:hover{
+    
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+
+
+
+
+/* TERMINA ESTILADO DEL APARTADO OBJETIVOS */
+
+
+
+
+
+
+/* EMPIEZA ESTILADO DEL APARTADO SERVICIOS */
+
+
+
+.servicios{
+    grid-area: servicios;
+    background-color: rgba(128, 128, 128, 0.447);
+    border: 2px solid black;
+}
+
+
+
+
+.servicios:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+
+
+
+
+
+/* TERMINA EL ESTILADO DEL APARTADO SERVICIOS */
+
+
+
+
+
+
+
+/* EMPIEZA EL ESTILADO DEL APARTADO PRODUCTOS */
+
+.productos{
+    grid-area: productos;
+    background-color: rgba(128, 128, 128, 0.447);
+    border: 2px solid black;
+}
+
+
+
+
+
+
+.productos:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+
+
+
+
+
+
+/* TERMINA ESTILADO DEL APARTADO PRODUCTOS */
+
+
+
+
+
+
+
+/* EMPIEZA EL ESTILADO DEL APARTADO CONTACTO */
+
+
+.contacto{
+    grid-area: contacto;
+    background-color: rgba(128, 128, 128, 0.447);
+    border: 2px solid black;
+}
+
+
+
+
+
+.contacto:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+
+
+
+
+
+
+
+/* TERMINA EL ESTILADO DEL APARTADO CONTACTO */
+
+
+
+
+
+
+/* TERMINA ESTILADO QUIENESSOMOS.HTML */
+
+
+
+
+
+
+/* EMPIEZA ESTILADO CONTACTO.HTML */
+
+
+
+/* EMPIEZA ESTILADO DE FORMULARIO */
+
+
+
+.formulario{
+    padding: 10px;
+    margin-left: 1000px;
+}
+
+
+
+
+.texto__h3{
+    margin-left: 1000px;
+}
+
+
+label{
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+
+
+input{
+    padding: 10px;
+    border: solid rgba(26, 247, 26, 0.41);
+}
+
+
+
+
+
+
+textarea{
+    padding: 10px;
+    border: solid rgba(26, 247, 26, 0.41);
+}
+
+
+
+
+
+
+.boton{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+
+.igytwitter{
+    display: flex;
+}
+
+
+
+.ig__contacto{
+    font-size: 80px;
+    margin-inline: 80px;
+}
+
+
+.twitter__contacto{
+    font-size: 80px;
+    margin-inline: 80px;
+}
+
+
+
+
+/* EMPIEZAN MEDIA QUERIES */
+
+
+
+
+
+@media screen and (max-width: 576px){
+    
+
+    h2{
+        font-size: large;
+    }
+
+
+
+    .zapas{
+        max-width: 100%;
+    }
+
+
+
+.carousel__img{
+        width: 100%;
+    }
+
+   
+
+
+    .carousel{
+        width: 100%;
+    }
+
+
+    .container-items{
+        display: grid;
+        justify-content: center;
+        gap: 7px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "zapas zapas2"
+        "zapas3 zapas4"
+        ;
+    }
+
+
+    .zapas1{
+        grid-area: zapas;
+    }
+
+
+    .zapas2{
+        grid-area: zapas2;
+    }
+
+    .zapas3{
+        grid-area: zapas3;
+    }
+
+    .zapas4{
+        grid-area: zapas4;
+    }
+
+
+
+
+
+
+    img.destacados{
+        width: 100%;
+        height: 47%;
+    }
+
+
+
+    .item{
+        margin: 0;
+    }
+
+
+
+
+    h4{
+        font-size: medium;
+    }
+
+
+
+    .info-product button{
+       padding: 1px;
+        
+    }
+
+
+
+
+
+    .induitems{
+        width: 60%;
+        height: 47%;
+    }
+
+
+
+
+    .indu{
+        margin: 0;
+    }
+
+
+
+    .footer{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+
+
+    .titulo__footer{
+        font-size: medium;
+    }
+
+
+    .navegacion li{
+        font-size: small;
+        display: block;
+    }
+
+
+
+}
