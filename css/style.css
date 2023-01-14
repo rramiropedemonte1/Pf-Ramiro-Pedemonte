@@ -229,7 +229,7 @@ h3{
 
 /* EMPIEZA ESTILADO DE INDUMENTARIA */
 
-.container-items{
+.indumentaria-items{
     display: flex;
     justify-content: center;
 }
@@ -850,7 +850,7 @@ textarea{
 
     img.destacados{
         width: 100%;
-        height: 47%;
+        height: 42%;
     }
 
 
@@ -877,17 +877,53 @@ textarea{
 
 
 
+
+    .indumentaria-items{
+        display: grid;
+        justify-content: center;
+        gap: 7px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "indu1 indu2"
+        "indu3 indu4"
+        ;
+    }
+
+
+
+
+
+    .indu1{
+        grid-area: indu1;
+    }
+
+
+    .indu2{
+        grid-area: indu2;
+    }
+
+
+    .indu3{
+        grid-area: indu3;
+    }
+
+
+    .indu4{
+        grid-area: indu4;
+    }
+
+
     .induitems{
-        width: 60%;
-        height: 47%;
+        width: 63%;
+        height: 42%;
     }
 
 
 
 
-    .indu{
-        margin: 0;
-    }
+    
+
 
 
 
