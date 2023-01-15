@@ -879,8 +879,8 @@ textarea{
 
 
     .info-product button{
-       padding: 1px;
-        
+       padding: 0px;
+       margin: 0;
     }
 
 
