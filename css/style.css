@@ -864,7 +864,9 @@ textarea{
 
 
     .item{
+        width: 90%;
         margin: 0;
+        margin-left: 10px;
     }
 
 
@@ -889,7 +891,6 @@ textarea{
     .indumentaria-items{
         display: grid;
         justify-content: center;
-        gap: 7px;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 1fr 1fr;
         grid-template-areas: 
@@ -922,10 +923,27 @@ textarea{
     }
 
 
-    .induitems{
-        width: 63%;
+
+
+
+
+    img.indu{
+        width: 100%;
         height: 100%;
     }
+
+
+
+    .induitems{
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+       
+    }
+
+
+
+   
 
 
 
@@ -938,8 +956,8 @@ textarea{
     .footer{
         height: auto;
         display: flex;
-        justify-content: space-between;
-        gap: 60px;
+        justify-content: space-around;
+        gap: 40px;
     }
 
 
