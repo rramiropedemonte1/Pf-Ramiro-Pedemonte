@@ -1,0 +1,49 @@
+.footer{
+    height: 24vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 500px;
+
+
+
+    
+
+    .navegacion{
+        list-style-type: none;
+        font-size: large;
+
+
+
+        .titulo__footer{
+            font-size: x-large;
+
+
+
+            .footer__ig{
+                font-size: 25px;
+            }
+
+
+
+            .footer__twitter{
+                font-size: 25px;
+            }
+
+        }
+        
+        
+
+
+        .navegacion a{
+            color: white;
+        }
+
+
+        .navegacion li a{
+            color: white;
+        }
+    }
+
+
+}

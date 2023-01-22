@@ -1,0 +1,146 @@
+.container__quienessomos{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns:repeat(4, 1fr) ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:  
+    "logo logo quiensoy servicios"
+    "logo logo productos contacto";
+
+
+
+    .container__quienessomos div{
+        display: grid;
+        place-items: start center;
+    }
+
+
+
+    .logo__2{
+        grid-area: logo;
+        background-image: url(../img/fondo3.jpg);
+        background-position: center;
+        border: 2px solid black;
+
+
+        .logo__2:hover{
+            transform: scale(1.1);
+            transition: all 0.9s;
+        }
+
+
+        .quienessomos {
+            color: white;
+            width: 60%;
+            float: right;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 5px solid white ;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        .quienessomos__p{
+            color: white;
+            width: 90%;
+            float: right;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 5px solid white;
+            padding: 60px;
+            text-align: center;
+            font-size: x-large;
+        }
+
+
+    }
+
+
+
+
+
+    .objetivo{
+        grid-area: quiensoy;
+        background-color: rgba(128, 128, 128, 0.447);
+        border: 2px solid black;
+
+
+
+        .apartados{
+            color: white;
+            width: 100%;
+            height: auto;
+            float: right;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 5px solid white ;
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+            }
+
+
+
+            .apartados__p{
+                color: white;
+                width: 90%;
+                float: right;
+                background-color: rgba(0, 0, 0, 0.7);
+                border: 5px solid white;
+                padding: 10px;
+                margin: 10px;
+                text-align: center;
+                font-size: large;
+                }
+
+    }
+
+
+
+    .servicios{
+        grid-area: servicios;
+        background-color: rgba(128, 128, 128, 0.447);
+        border: 2px solid black;
+
+        .servicios:hover{
+            transform: scale(1.1);
+            transition: all 0.9s;
+        }
+    }
+
+
+
+
+    .productos{
+        grid-area: productos;
+        background-color: rgba(128, 128, 128, 0.447);
+        border: 2px solid black;
+
+
+
+        .productos:hover{
+            transform: scale(1.1);
+            transition: all 0.9s;
+        }
+
+    }
+
+
+
+
+    .contacto{
+        grid-area: contacto;
+        background-color: rgba(128, 128, 128, 0.447);
+        border: 2px solid black;
+
+
+
+
+        .contacto:hover{
+            transform: scale(1.1);
+            transition: all 0.9s;
+        }
+    }
+    
+
+}

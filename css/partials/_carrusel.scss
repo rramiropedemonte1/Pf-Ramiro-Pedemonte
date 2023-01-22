@@ -1,0 +1,33 @@
+.zapas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+    height: 260vh;
+    max-width: 96%;
+    height: 100%;
+
+
+
+
+    .carousel-indicators li{
+        display: none;
+    }
+
+
+
+    .carousel-control-prev-icon{
+        border-radius: solid;
+        height: 15px;
+        background-color: black;
+    }
+
+
+    .carousel-control-next-icon{
+        border-radius: solid;
+        height: 15px;
+        background-color: black;
+    }
+
+}
+

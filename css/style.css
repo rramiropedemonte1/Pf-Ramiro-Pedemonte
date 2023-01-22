@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Libre Franklin', sans-serif;
 }
 
 
@@ -172,11 +171,6 @@ img.destacados{
 }
 
 
-.textos__h2{
-    color: white;
-    font-weight: bolder;
-}
-
 
 
 
@@ -220,9 +214,7 @@ h4{
 
 
 
-h3{
-    padding: 5px;
-}
+
 
 
 
@@ -406,7 +398,14 @@ h1{
 
 /* H1 */
 
+/* H3 */
 
+h3{
+    padding: 5px;
+}
+
+
+/* H3 */
 
 /* P */
 
@@ -469,7 +468,6 @@ strong{
 .container__quienessomos div{
     display: grid;
     place-items: start center;
-    
 }
 
 
@@ -524,10 +522,6 @@ strong{
 }
     
 
-
-.container__quienessomos main{
-    overflow: hidden;
-}
 
 
 
@@ -590,8 +584,7 @@ strong{
 
 
 .objetivo:hover{
-    
-    transform: scale(1.1);
+    transform: scale(1.06);
     transition: all 0.9s;
 }
 
