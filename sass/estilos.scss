@@ -1,1 +1,282 @@
 @import "../css/partials/variables";
+@import "../css/partials/reset";
+@import "../css/partials/carusel";
+@import "../css/partials/navbar";
+@import "../css/partials/header";
+@import "../css/partials/h2";
+@import "../css/partials/sneakers";
+@import "../css/partials/indumentaria";
+@import "../css/partials/footer";
+@import "../css/partials/contacto";
+@import "../css/partials/quienessomos";
+
+
+
+
+
+
+
+
+@media screen and (min-width:700px){
+
+    /* EMPIEZA ESTILADO DE CONTACTO.HTML */
+
+
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+
+    .contact-wrapper > *{
+        padding: 2rem;
+    }
+
+
+    .contact-info h4 ,
+    .contact-info ul ,
+    .contact-info p{
+        padding: 1rem;
+        text-align: center;
+    }
+
+
+    /* TERMINA ESTILADO DE CONTACTO.HTML */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    
+
+    h2{
+        font-size: large;
+    }
+
+
+
+    .zapas{
+        max-width: 100%;
+    }
+
+
+
+.carousel__img{
+        width: 100%;
+    }
+
+   
+
+
+    .carousel{
+        width: 100%;
+    }
+
+
+    .container-items{
+        display: grid;
+        justify-content: center;
+        gap: 7px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "zapas zapas2"
+        "zapas3 zapas4"
+        ;
+   
+
+
+    .zapas1{
+        grid-area: zapas;
+    }
+
+
+    .zapas2{
+        grid-area: zapas2;
+    }
+
+    .zapas3{
+        grid-area: zapas3;
+    }
+
+    .zapas4{
+        grid-area: zapas4;
+    }
+
+ 
+
+
+
+
+
+  .item{
+        width: 90%;
+        margin: 0;
+        margin-left: 10px;
+    
+
+    img.destacados{
+        width: 100%;
+        height: 42%;
+    }
+
+}
+
+  
+
+
+
+
+    h4{
+        font-size: medium;
+    }
+
+
+
+    .info-product button{
+       padding: 0px;
+       margin: 0;
+    }
+}
+
+
+
+
+
+    .indumentaria-items{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "indu1 indu2"
+        "indu3 indu4"
+        ;
+    
+
+
+
+
+
+    .indu1{
+        grid-area: indu1;
+    }
+
+
+    .indu2{
+        grid-area: indu2;
+    }
+
+
+    .indu3{
+        grid-area: indu3;
+    }
+
+
+    .indu4{
+        grid-area: indu4;
+    }
+
+
+
+ 
+    .induitems{
+        padding: 10px;
+        margin-right: 0px;
+        margin-left: 10px;
+       
+    
+
+
+    img.indu{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+
+h4{
+    font-size: medium;
+}
+
+
+
+.info-product button{
+   padding: 0;
+   margin: 0;
+}
+   
+
+
+}
+
+
+
+
+    .footer{
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    
+
+
+    .navegacion li{
+        font-size: small;
+        display: block;
+    }
+
+    .titulo__footer{
+        font-size: large;
+    }
+
+
+    
+}
+
+
+
+
+body{
+    padding: 0;
+}
+
+.content{
+padding: 0;
+}
+
+
+
+
+
+.contact-form form button{
+margin: 0 6%;
+}
+
+
+
+
+.contact-form form p{
+padding: 0.6rem;
+}
+
+.logo{
+text-align: center;
+padding: 0;
+font-size: 2rem;
+}
+
+}
