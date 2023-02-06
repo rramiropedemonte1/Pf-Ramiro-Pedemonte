@@ -273,6 +273,24 @@ h2 {
 .quienessomos__p {
   font-weight: bolder;
   font-size: larger;
+  padding: 8px;
+}
+
+.quienessomosh2 {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.quienessomosh1 {
+  font-size: xx-large;
+  font-weight: bolder;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 @media screen and (min-width: 700px) {
